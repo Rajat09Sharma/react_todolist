@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-mongoose.connect("mongodb://0.0.0.0:27017/reactDB");
+mongoose.connect("mongodb+srv://rajat:NocbLGG6xWcXjI3x@cluster0.jxxg76p.mongodb.net/todolistDB");
 
 const itemSchema= new mongoose.Schema({
     item:String
